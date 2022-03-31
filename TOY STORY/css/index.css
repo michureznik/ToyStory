@@ -1,0 +1,33 @@
+.fondo {background-image: url("nubes.png");}
+
+.header {
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+.contenedor{
+	
+	text-align: center;
+	display: block;
+	width: 80%;
+	background-color: rgba(255,255,255,0.5);
+	margin-left: 13%;
+}
+.row {
+  display: flex;
+}
+.perfil{
+	border-radius: 80%;
+}
+.column {
+  flex: 50%;
+}
+footer{background-image: url("piepagina.jpg");
+background-size: contain;
+padding-bottom:15% ;}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
